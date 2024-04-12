@@ -13,7 +13,7 @@
   },
   "main": "lib/index.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "firebase-admin": "^10.0.2",
     "firebase-functions": "^4.4.0",
     "googleapis": "^118.0.0"
