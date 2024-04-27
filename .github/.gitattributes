@@ -1,0 +1,23 @@
+git merge otherbranch
+git merge-base otherbranch master
+% git checkout --conflict diff3 <filepath>
+
+% git init
+% echo 0 > version.txt
+% git add version.txt
+% git commit -m'version is 0'
+ git switch -c develop
+# ...do work-add-and-commit, work-add-and-commit...
+% git switch -c temp1
+% echo 1 > version.txt
+% git add version.txt
+% git commit -m'up version to 1'
+% git switch master
+% git merge --no-ff temp1
+% git commit
+% git switch master
+% git fetch
+% git merge
+% git switch feature
+% git fetch origin master:master
+git merge -s ours
